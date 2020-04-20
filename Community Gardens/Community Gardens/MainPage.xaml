@@ -7,7 +7,6 @@
              x:Class="Community_Gardens.MainPage">
 
     <StackLayout BackgroundColor="#A7E989">
-        <!-- Place new controls here -->
         <Label Text="Community Gardens" BackgroundColor="#219653"
            HorizontalOptions="Fill" HorizontalTextAlignment="Center"
                FontSize="30"
@@ -19,13 +18,15 @@
             <Button WidthRequest="60" HeightRequest="60"
                     CornerRadius="30" VerticalOptions="Start"
                     HorizontalOptions="End" BackgroundColor="#F2994A"
-                    Margin="10, 20, 40, 20" Text="+" FontSize="40" TextColor="White"/>
+                    Margin="10, 20, 40, 20" Text="+" FontSize="40" TextColor="White" 
+                    Padding="0, 0, 1, 2"/>
         </Grid>
         <Grid VerticalOptions="StartAndExpand">
             <Button WidthRequest="60" HeightRequest="60"
                     CornerRadius="30" VerticalOptions="Start"
                     HorizontalOptions="Start" BackgroundColor="#F2994A"
-                    Margin="40, 20, 10, 20" Text="+" FontSize="40" TextColor="White"/>
+                    Margin="40, 20, 10, 20" Text="+" FontSize="40" TextColor="White"
+                    Padding="0, 0, 1, 2"/>
             <Button Text="Your Requests" BackgroundColor="#6FCF97"
                 VerticalOptions="Start" HorizontalOptions="End"
                 Margin="20" FontSize="20"></Button>
@@ -33,20 +34,22 @@
         <Grid VerticalOptions="StartAndExpand">
             <Button Text="View All Listings" BackgroundColor="#6FCF97"
                 VerticalOptions="Start" HorizontalOptions="Start"
-                Margin="20" FontSize="20"></Button>
+                Margin="10, 20, 40, 20" FontSize="20"></Button>
             <Button WidthRequest="60" HeightRequest="60"
                     CornerRadius="30" VerticalOptions="Start"
                     HorizontalOptions="End" BackgroundColor="#F2994A"
-                    Margin="10, 20, 40, 20" Text="+" FontSize="40" TextColor="White"/>
+                    Margin="10, 20, 40, 20" Text="+" FontSize="40" TextColor="White"
+                    Padding="0, 0, 1, 2"/>
         </Grid>
         <Grid VerticalOptions="StartAndExpand">
             <Button WidthRequest="60" HeightRequest="60"
                     CornerRadius="30" VerticalOptions="Start"
                     HorizontalOptions="Start" BackgroundColor="#F2994A"
-                    Margin="10, 20, 40, 20" Text="+" FontSize="40" TextColor="White"/>
+                    Margin="40, 20, 10, 20" Text="+" FontSize="40" TextColor="White"
+                    Padding="0, 0, 1, 2"/>
             <Button Text="Messages" BackgroundColor="#6FCF97"
                 VerticalOptions="Start" HorizontalOptions="End"
-                Margin="20" FontSize="20"></Button>
+                Margin="20" FontSize="20"/>
         </Grid>
     </StackLayout>
 
