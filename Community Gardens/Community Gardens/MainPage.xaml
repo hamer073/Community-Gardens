@@ -14,12 +14,12 @@
         <Grid VerticalOptions="StartAndExpand">
             <Button Text="Your Listings" BackgroundColor="#6FCF97"
                 VerticalOptions="Start" HorizontalOptions="Start"
-                Margin="20" FontSize="20"></Button>
+                Margin="20" FontSize="20" />
             <Button WidthRequest="60" HeightRequest="60"
                     CornerRadius="30" VerticalOptions="Start"
                     HorizontalOptions="End" BackgroundColor="#F2994A"
                     Margin="10, 20, 40, 20" Text="+" FontSize="40" TextColor="White" 
-                    Padding="0, 0, 1, 2"/>
+                    Padding="0, 0, 1, 2" Clicked="HandleClicks"/>
         </Grid>
         <Grid VerticalOptions="StartAndExpand">
             <Button WidthRequest="60" HeightRequest="60"

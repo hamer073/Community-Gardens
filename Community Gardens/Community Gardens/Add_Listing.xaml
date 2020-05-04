@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Community_Gardens.Add_Listing">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#A7E989">
+            <Label Text="Community Gardens" BackgroundColor="#219653"
+           HorizontalOptions="Fill" HorizontalTextAlignment="Center"
+               FontSize="30"
+           VerticalOptions="Start" />
+                <Label Text="Product Name *" HorizontalOptions="Start"
+                   HorizontalTextAlignment="Start"
+                   FontSize="30" VerticalOptions="Start"/>
+            <Entry Placeholder="Product" BackgroundColor="#E0E0E0"
+                       HorizontalOptions="Fill" ></Entry>
+            <Label Text="Amount *" HorizontalOptions="Start"
+                   HorizontalTextAlignment="Start"
+                   FontSize="30" VerticalOptions="Start"/>
+            <Entry Placeholder="Amount" BackgroundColor="#E0E0E0"
+                       HorizontalOptions="Fill"></Entry>
+            <Label Text="Phone Number" HorizontalOptions="Start"
+                   HorizontalTextAlignment="Start"
+                   FontSize="30" VerticalOptions="Start"/>
+            <Entry Placeholder="Phone Number" BackgroundColor="#E0E0E0"
+                       HorizontalOptions="Fill"></Entry>
+            <Label Text="Email" HorizontalOptions="Start"
+                   HorizontalTextAlignment="Start"
+                   FontSize="30" VerticalOptions="Start"/>
+            <Entry Placeholder="Email" BackgroundColor="#E0E0E0"
+                       HorizontalOptions="Fill"></Entry>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -11,17 +11,11 @@ namespace Community_Gardens
     // Learn more about making custom code visible in the Xamarin.Forms previewer
     // by visiting https://aka.ms/xamarinforms-previewer
     [System.ComponentModel.DesignTimeVisible(false)]
-    public partial class MainPage : ContentPage
+    public partial class Add_Listing : ContentPage
     {
-        public MainPage()
+        public Add_Listing()
         {
             InitializeComponent();
-        }
-
-        public void HandleClicks(object sender, EventArgs args)
-        {
-            App.Current.MainPage = new Add_Listing();
-            Console.Out.WriteLine("CLICK");
         }
     }
 }
