@@ -4,7 +4,7 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="Community_Gardens.Add_Listing">
+             x:Class="Community_Gardens.Add_Request">
     <ContentPage.Content>
         <StackLayout BackgroundColor="#A7E989">
             <Label Text="Community Gardens" BackgroundColor="#219653"
@@ -31,7 +31,7 @@
                    FontSize="30" VerticalOptions="Start"/>
             <Entry Placeholder="Email" BackgroundColor="#E0E0E0"
                        HorizontalOptions="Fill" Text="{Binding email}"></Entry>
-            <Button Text="Submit" Command="{Binding AddListingCommand}"></Button>
+            <Button Text="Submit" Command="{Binding AddRequestCommand}"></Button>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
