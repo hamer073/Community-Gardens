@@ -16,6 +16,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Update="Messages.xaml.cs">
+      <DependentUpon>Messages.xaml</DependentUpon>
+    </Compile>
     <Compile Update="ViewAllListings.xaml.cs">
       <DependentUpon>ViewAllListings.xaml</DependentUpon>
     </Compile>

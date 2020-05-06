@@ -43,5 +43,10 @@ namespace Community_Gardens
         {
             App.Current.MainPage = new ViewAllListings(Requests, Listings);
         }
+
+        public void HandleContacts(object sender, EventArgs args)
+        {
+            App.Current.MainPage = new MessagesPage(Requests, Listings);
+        }
     }
 }

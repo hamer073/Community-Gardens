@@ -39,7 +39,7 @@
         <Grid VerticalOptions="StartAndExpand">
             <Button Text="Messages" BackgroundColor="#6FCF97"
                 VerticalOptions="Start" HorizontalOptions="End"
-                Margin="20" FontSize="20"/>
+                Margin="20" FontSize="20" Clicked="HandleContacts"/>
         </Grid>
     </StackLayout>
 
