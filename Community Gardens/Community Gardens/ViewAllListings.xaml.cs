@@ -6,6 +6,8 @@ using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 
+using System.Collections.ObjectModel;
+
 namespace Community_Gardens
 {
     // Learn more about making custom code visible in the Xamarin.Forms previewer
@@ -13,14 +15,22 @@ namespace Community_Gardens
     [System.ComponentModel.DesignTimeVisible(false)]
     public partial class ViewAllListings : ContentPage
     {
-        public ViewAllListings()
+        public ObservableCollection<RequestViewModel> Requests { get; set; }
+        public ObservableCollection<RequestViewModel> Listings { get; set; }
+        public ViewAllListings(ObservableCollection<RequestViewModel> Requests, ObservableCollection<RequestViewModel> Listings)
         {
+            InitializeComponent();
+            this.Requests = Requests;
+            this.Listings = Listings;
         }
 
         public void HandleClicks(object sender, EventArgs args)
         {
-            App.Current.MainPage = new Add_Listing();
-            Console.Out.WriteLine("CLICK");
+            App.Current.MainPage = new Add_Listing(Requests, Listings);
+        }
+        public void HandleHome(object sender, EventArgs args)
+        {
+            App.Current.MainPage = new MainPage(Requests, Listings);
         }
     }
 }

@@ -25,7 +25,6 @@ public partial class RequestPage : ContentPage
     public void HandleHome(object sender, EventArgs args)
     {
         App.Current.MainPage = new MainPage(Requests, Listings);
-        Console.Out.WriteLine("CLICK");
     }
     }
 }

@@ -55,6 +55,11 @@
                 VerticalOptions="Start" HorizontalOptions="Start"
                 Margin="20" FontSize="16"/>
         </Grid>
+        <Button WidthRequest="60" HeightRequest="60"
+                    CornerRadius="30" VerticalOptions="Start"
+                    HorizontalOptions="Start" BackgroundColor="#F2994A"
+                    Margin="40, 20, 10, 20" Text="Home" FontSize="40" TextColor="White"
+                    Padding="0, 0, 1, 2" Clicked="HandleHome"/>
     </StackLayout>
 
 </ContentPage>

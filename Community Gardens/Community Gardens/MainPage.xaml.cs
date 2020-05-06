@@ -26,23 +26,22 @@ namespace Community_Gardens
         public void HandleRequest(object sender, EventArgs args)
         {
             App.Current.MainPage = new RequestPage(Requests, Listings);
-            Console.Out.WriteLine("CLICK");
         }
         public void HandleAddRequest(object sender, EventArgs args)
         {
             App.Current.MainPage = new Add_Request(Requests, Listings);
-            Console.Out.WriteLine("CLICK");
         }
         public void HandleListing(object sender, EventArgs args)
         {
             App.Current.MainPage = new User_Listings(Requests, Listings);
-            Console.Out.WriteLine("CLICK");
         }
         public void HandleAddListing(object sender, EventArgs args)
         {
             App.Current.MainPage = new Add_Listing(Requests, Listings);
-            Console.Out.WriteLine("CLICK");
         }
-
+        public void HandleViewListings(object sender, EventArgs args)
+        {
+            App.Current.MainPage = new ViewAllListings(Requests, Listings);
+        }
     }
 }
