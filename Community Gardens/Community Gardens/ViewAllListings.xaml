@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Community_Gardens.ViewAllListings">
+
+    <StackLayout BackgroundColor="#A7E989">
+        <Label Text="All Listings" BackgroundColor="#219653"
+           HorizontalOptions="Fill" HorizontalTextAlignment="Center"
+               FontSize="30"
+           VerticalOptions="Start" />
+        <Grid VerticalOptions="Start">
+            <Button Text="Requests" BackgroundColor="#31572C"
+                VerticalOptions="Start" HorizontalOptions="Center"
+                Margin="20,0,0,0" FontSize="20" TextColor="Wheat"/>
+        </Grid>
+        <Grid VerticalOptions="Start">
+            <Button Text="Zucchini
+       mail:test@gmail.com" BackgroundColor="#31572C"
+                VerticalOptions="Center" HorizontalOptions="Center"
+                Margin="20" FontSize="16"
+                    TextColor="Wheat"></Button>
+        </Grid>
+        <Grid VerticalOptions="Start">
+            <Button Text="Eggplant
+       mail:test@gmail.com" BackgroundColor="#31572C"
+                VerticalOptions="Center" HorizontalOptions="Center"
+                Margin="20" FontSize="16"
+                    TextColor="Wheat"></Button>
+        </Grid>
+        <Grid VerticalOptions="Start">
+            <Button Text="Giving" BackgroundColor="#6FCF97"
+                VerticalOptions="Start" HorizontalOptions="Center"
+                Margin="20,0,0,0" FontSize="20"></Button>
+        </Grid>
+        <Grid VerticalOptions="Start">
+            <Button Text="5 Zucchini
+       Phone:555-6666"  BackgroundColor="#6FCF97"
+                VerticalOptions="Start" HorizontalOptions="Center"
+ 
+                Margin="20" FontSize="16"/>
+        </Grid>
+        <Grid VerticalOptions="Start">
+            <Button Text="12 Apples
+       Phone:1-800-123-4567" BackgroundColor="#6FCF97"
+            
+                VerticalOptions="Start" HorizontalOptions="Center"
+                Margin="20" FontSize="16"/>
+        </Grid>
+        <Grid VerticalOptions="Start">
+            <Button Text="13 Carrots
+       mail:blah@yahoo.com" BackgroundColor="#6FCF97"
+                VerticalOptions="Start" HorizontalOptions="Start"
+                Margin="20" FontSize="16"/>
+        </Grid>
+    </StackLayout>
+
+</ContentPage>
